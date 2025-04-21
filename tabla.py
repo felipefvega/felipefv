@@ -1,6 +1,6 @@
 #TABLA DE MULTIPLICAR
 
 print("Indique un número: ")
-num = input()
+num = int(input())
 for i in range(1,11):
-    print("5 x ",i, " = ", 5*i)
+    print(num," x ",i, " = ", num*i)
