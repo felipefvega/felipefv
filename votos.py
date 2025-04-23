@@ -8,9 +8,9 @@ for i in range(votantes):
     print("1) Sofía o 2) Maykol")
     voto = input()
 
-    if voto == 1:
+    if voto == "1":
         sofia = sofia + 1
-    elif voto == 2:
+    elif voto == "2":
         maykol = maykol + 1
     
 print("Resultados finales:")
@@ -24,4 +24,4 @@ elif maykol > sofia:
 elif sofia == maykol:
     print("Es un empate")
 
-    #HAY QUE PARCHEARLOOOOOO
+    #PARCHEADO
