@@ -25,7 +25,7 @@ while True:
     match opt:
         case "1":
             if usuario1 == None and usuario2 == None and usuario3 == None:
-                print("NO EXISTE REGISTRO DE USUARIOS. POR FAVOR, REGISTRARSE")
+                print("NO EXISTEN USUARIOS. POR FAVOR, REGISTRARSE")
             else: 
                 while True:
                     usuarioLogin = input("INGRESE SU USUARIO: ")
@@ -44,7 +44,14 @@ while True:
                 
                 while intentos != 3:
                     passwordLogin = input("INGRESE SU CONTRASEÑA: ")
-                    if
+                    if passwordLogin != userPass:
+                        print("CONTRASEÑA INCORRECTA. INTENTE NUEVAMENTE")
+                        intentos += 1
+                        if intentos == 3:
+                            print("MÁXIMO DE INTENTOS ALCANZADOS. REINTENTE MÁS TARDE")
+                    elif passwordLogin == userPass:
+                        
+                        
 
                       
 
